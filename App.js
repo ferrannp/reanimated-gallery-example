@@ -5,7 +5,6 @@ import {
   ScrollView,
   TouchableWithoutFeedback,
 } from 'react-native-gesture-handler';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import {
   useGalleryInit,
   useGalleryItem,
@@ -75,8 +74,13 @@ function ListItem({item, index}) {
     };
   });
 
+  const _onPress = () => {
+    console.warn('HERE', onPress);
+    onPress();
+  };
+
   return (
-    <TouchableWithoutFeedback style={containerStyle} onPress={onPress}>
+    <TouchableWithoutFeedback style={containerStyle} onPress={_onPress}>
       <ImageComponent
         ref={ref}
         source={{uri: item.uri}}

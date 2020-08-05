@@ -527,7 +527,7 @@
     "@babel/helper-simple-access" "^7.10.4"
     babel-plugin-dynamic-import-node "^2.3.3"
 
-"@babel/plugin-transform-object-assign@^7.0.0":
+"@babel/plugin-transform-object-assign@^7.0.0", "@babel/plugin-transform-object-assign@^7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-object-assign/-/plugin-transform-object-assign-7.10.4.tgz#f7c8f54ce8052ccd8b9da9b3358848423221c338"
   integrity sha512-6zccDhYEICfMeQqIjuY5G09/yhKzG30DKHJeYBQUHIsJH7c2jXSGvgwRalufLAXAq432OSlsEfAOLlzEsQzxVw==
@@ -5416,7 +5416,7 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-gesture-handler@^1.7.0:
+react-native-gesture-handler@^1.6.1:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.7.0.tgz#0ef74a5ba836832e497dc49eb1ce58baa6c617e5"
   integrity sha512-1CrjJf8Z6Iz2XWzfZknYtsm2sud5Lu/pLhhokkgBIKttxqGDtetDEVFDJOTJWJyKCrUPk0X5tnWi/diSF4q++w==
@@ -5426,11 +5426,12 @@ react-native-gesture-handler@^1.7.0:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-reanimated@2.0.0-alpha.3:
-  version "2.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-2.0.0-alpha.3.tgz#10d082288e9da2a3aab0a449142b6fb9f0c29855"
-  integrity sha512-HUqPlb9jGpBd7r2hnjxKtskdBjJFST1FSDftT2KzoI9h+OxhcODY/YL6cw8Lphm/TSFbEHrjq7iJunrelnueVg==
+react-native-reanimated@^2.0.0-alpha.4:
+  version "2.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-2.0.0-alpha.4.tgz#d6af43fe582eb6e4f0d9612440cdcf091013fa30"
+  integrity sha512-NXD1ymTqxcKFiTw8V94MLXgpw1fhMMlTAVWiIgYcWfvUO2smwRZERwH9ox02ZGM+CtiC4Y+SG2NS+ipLmaL3Eg==
   dependencies:
+    "@babel/plugin-transform-object-assign" "^7.10.4"
     fbjs "^1.0.0"
     string-hash-64 "^1.0.3"
 
@@ -5527,9 +5528,9 @@ readable-stream@^2.0.1, readable-stream@^2.2.2, readable-stream@~2.3.6:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-"reanimated-gallery@https://github.com/ferrannp/reanimated-gallery#62d8e437f26594dabb99da30a3e9018ebc1dd112":
+"reanimated-gallery@https://github.com/terrysahaidak/reanimated-gallery#7588abe43f64d021d77b0bfad583b301190e0b4a":
   version "0.0.1"
-  resolved "https://github.com/ferrannp/reanimated-gallery#62d8e437f26594dabb99da30a3e9018ebc1dd112"
+  resolved "https://github.com/terrysahaidak/reanimated-gallery#7588abe43f64d021d77b0bfad583b301190e0b4a"
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
