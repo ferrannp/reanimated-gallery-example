@@ -1,8 +1,10 @@
 ```
 "react-native": "0.62.2",
 "react-native-gesture-handler": "^1.7.0",
-"react-native-reanimated": "2.0.0-alpha.3",
-"reanimated-gallery": "https://github.com/ferrannp/reanimated-gallery#62d8e437f26594dabb99da30a3e9018ebc1dd112"
+"react-native-reanimated": "2.0.0-alpha.4",
+"reanimated-gallery": "https://github.com/terrysahaidak/reanimated-gallery#7588abe43f64d021d77b0bfad583b301190e0b4a"
 ```
 
-![](error.png)
+# Error
+
+- Pressing the image is not opening the gallery
