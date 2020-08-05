@@ -74,13 +74,8 @@ function ListItem({item, index}) {
     };
   });
 
-  const _onPress = () => {
-    console.warn('HERE', onPress);
-    onPress();
-  };
-
   return (
-    <TouchableWithoutFeedback style={containerStyle} onPress={_onPress}>
+    <TouchableWithoutFeedback style={containerStyle} onPress={onPress}>
       <ImageComponent
         ref={ref}
         source={{uri: item.uri}}

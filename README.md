@@ -5,6 +5,6 @@
 "reanimated-gallery": "https://github.com/terrysahaidak/reanimated-gallery#7588abe43f64d021d77b0bfad583b301190e0b4a"
 ```
 
-# Error
+# Status
 
-- Pressing the image is not opening the gallery
+The example is working.

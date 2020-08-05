@@ -82,7 +82,7 @@ RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
 
 - (std::unique_ptr<facebook::react::JSExecutorFactory>)jsExecutorFactoryForBridge:(RCTBridge *)bridge
 {
-  //   _bridge_reanimated = bridge;
+   _bridge_reanimated = bridge;
   //  _turboModuleManager = [[RCTTurboModuleManager alloc] initWithBridge:bridge
   //                                                              delegate:self
   //                                                             jsInvoker:bridge.jsCallInvoker];
